@@ -1,8 +1,5 @@
 package Application;
 
-import java.sql.SQLException;
-
-import DAO.DAOMarque;
 import Mysql.Database;
 
 public class Application {
