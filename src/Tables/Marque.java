@@ -5,7 +5,6 @@ public class Marque {
 	private String nom;
 
 	public Marque(String nom) {
-		super();
 		this.nom = nom;
 	}
 

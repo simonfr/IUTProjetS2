@@ -19,7 +19,6 @@ public class Modele {
 	
 	public Modele(int brand, String screentype, int weight, int rom, int ram, int os, String cpu, boolean touchscreen,
 			boolean doublesim, String simtype, String simmode, Date dater) {
-		super();
 		this.brand = brand;
 		this.screentype = screentype;
 		this.weight = weight;
