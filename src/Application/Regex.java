@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class Regex {
 	
-	private Regex(String regex, String text, String Table[][]) {
+	public Regex(String regex, String text, String[][] Table) {
 		
 		Pattern p = Pattern.compile(regex);
 		Matcher m = p.matcher(text);
